@@ -1,0 +1,45 @@
+
+/*
+	Make the element take in consideration for it's height the child elements that are floated.
+	Alternative to adding a div with clear:both at the end of that div.
+*/
+.clearFix:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+
+/*
+	Disable selection for an element
+*/
+.noSelect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*
+	Enable GPU acceleration for an element.
+	Also, use 3D transformations instead of 2D transformations for that element
+*/
+.accelerated {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
