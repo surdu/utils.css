@@ -51,3 +51,19 @@
 {
 	padding: 0.1px;
 }
+
+/*
+	Vertically align text inside container.
+	The text in the container should always be wrapped inside a display:inline element, for example, a span
+*/
+.vcentered * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.vcentered::after {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
