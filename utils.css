@@ -54,7 +54,6 @@
 
 /*
 	Vertically align text inside container.
-	The text in the container should always be wrapped inside a display:inline element, for example, a span
 */
 .vcentered * {
 	display: inline-block;
