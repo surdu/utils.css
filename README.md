@@ -2,7 +2,7 @@
 
 My little useful CSS utils.
 
-Usage
+# Usage
 
 ## .clearFix
 Enables the element's height to clear all it's floated children.
