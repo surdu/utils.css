@@ -20,6 +20,6 @@ Disable [margin collapsing](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS
 [See it in action on CodePen](http://codepen.io/surdu/pen/XjNAwg?editors=1100#0)
 
 ### .vcentered
-Vertically alignes text inside this element.
+Vertically alignes text inside this element. If the vertically centered text is multiline, it must be wrapped in a span or other inline block element.
 
 [See it in action on CodePen](http://codepen.io/surdu/pen/WGoZVv?editors=1100#0)
